@@ -10,7 +10,7 @@ function promedio(mat1, mat2, mat3){
 } 
 while(entrada!="ESC"){
     entrada = prompt("Si deseas salir escribe ESC, si no S.");
-    if(entrada="S"){
+    if(entrada=="S"){
     mat1= Number(prompt("Ingresa la nota de matemática:"));
     mat2= Number(prompt("Ingresa la nota de geografía:"));
     mat3= Number(prompt("Ingresa la nota de inglés:"));
